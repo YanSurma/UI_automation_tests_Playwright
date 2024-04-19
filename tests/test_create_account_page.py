@@ -4,7 +4,6 @@ import pytest
 
 from conftest import create_account
 from data.invalid_data import empty_fields, not_equal_passwords
-from generator.generator import generated_user
 
 
 def test_create_account(create_account):
