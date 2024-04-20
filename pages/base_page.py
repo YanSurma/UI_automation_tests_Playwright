@@ -1,4 +1,6 @@
-from playwright.sync_api import Page, Locator
+from playwright.sync_api import Page, Locator, expect
+
+from pages.locators import base_page_locators as loc
 
 
 class BasePage:
@@ -13,3 +15,8 @@ class BasePage:
 
     def find(self, locator) -> Locator:
         return self.page.locator(locator)
+
+    def check_page_title(self, title_value):
+        page_title = self.find(loc.PAGE_TITLE)
+        expect(page_title).to_be_visible()
+        expect(page_title).to_have_text(title_value)

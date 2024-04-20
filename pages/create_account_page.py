@@ -56,3 +56,4 @@ class CreateAccountPage(BasePage):
         self.fill_password(user.password)
         self.fill_password_confirmation(user.confirm_password)
         self.click_create_button()
+        return [user.first_name, user.last_name, user.email]

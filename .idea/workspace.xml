@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2af2a5-374a-4a32-acb2-3b70b315d2f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/UI_automation_Playwright.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/invalid_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/create_account_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/locators/create_account_page_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/account_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/locators/account_page_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/locators/base_page_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/locators/login_page_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UI_automation_Playwright.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UI_automation_Playwright.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/create_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/create_account_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_create_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_create_account_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YanSurma&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:YanSurma/UI_automation_tests_Playwright.git&quot;,
+    &quot;accountId&quot;: &quot;2851bbc2-bd04-47ec-9dbe-5e89e52d8170&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -45,10 +58,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_create_account_page.test_create_account.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_create_account_page.test_create_account_with_empty_required_fields.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_create_account_page.test_fill_form_with_empty_required_fields.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_first.test_create_account.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_first.test_create_exist_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_login.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_first.py.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -62,7 +77,23 @@
       <recent name="D:\Repositories\UI_automation_Playwright" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_create_account_page.test_create_account_with_empty_required_fields">
+  <component name="RunManager" selected="Python tests.Python tests for test_login_page.test_login">
+    <configuration name="Python tests for test_create_account_page.test_create_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="UI_automation_Playwright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (UI_automation_Playwright)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_create_account_page.test_create_account&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_create_account_page.test_create_account_with_empty_required_fields" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="UI_automation_Playwright" />
       <option name="ENV_FILES" value="" />
@@ -94,6 +125,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_login_page.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="UI_automation_Playwright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_login_page.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for tests.test_create_account_page" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="UI_automation_Playwright" />
       <option name="ENV_FILES" value="" />
@@ -122,22 +168,6 @@
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
       <option name="_new_target" value="&quot;tests.test_create_account_page.test_create_account&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_create_account_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="UI_automation_Playwright" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (UI_automation_Playwright)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_create_account_page.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Autodetect">
@@ -176,10 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_login_page.test_login" />
+        <item itemvalue="Python tests.Python tests for test_create_account_page.test_create_account" />
         <item itemvalue="Python tests.Python tests for test_create_account_page.test_create_account_with_empty_required_fields" />
         <item itemvalue="Python tests.Python tests for test_create_account_page.test_fill_form_with_empty_required_fields" />
         <item itemvalue="Python tests.Python tests for tests.test_create_account_page.test_create_account" />
-        <item itemvalue="Python tests.Python tests in test_create_account_page.py" />
       </list>
     </recent_temporary>
   </component>

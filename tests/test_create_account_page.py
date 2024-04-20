@@ -1,15 +1,13 @@
-from time import sleep
-
 import pytest
-
-from conftest import create_account
+from conftest import create_account, account
 from data.invalid_data import empty_fields, not_equal_passwords
 
 
-def test_create_account(create_account):
+def test_create_account(create_account, account):
     create_account.open_page(create_account.page_url)
-    create_account.fill_authorization_form()
+    acc_info = create_account.fill_authorization_form()
     create_account.check_for_success_auth_alert()
+    account.check_for_account_info_equals(*acc_info)
 
 
 @pytest.mark.parametrize('data', empty_fields)
