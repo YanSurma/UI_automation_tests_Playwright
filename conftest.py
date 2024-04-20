@@ -1,6 +1,7 @@
 from playwright.sync_api import BrowserContext
 import pytest
 
+from generator.generator import generated_user
 from pages.account_page import MyAccount
 from pages.create_account_page import CreateAccountPage
 from pages.login_page import LoginPage
@@ -15,12 +16,12 @@ def page(context: BrowserContext, playwright):
 
 
 @pytest.fixture()
-def create_account(page):
+def create_acc(page):
     return CreateAccountPage(page)
 
 
 @pytest.fixture()
-def account(page):
+def acc(page):
     return MyAccount(page)
 
 
@@ -28,7 +29,3 @@ def account(page):
 def login(page):
     return LoginPage(page)
 
-
-@pytest.fixture()
-def login_user(page):
-    pass
