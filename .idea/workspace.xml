@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2af2a5-374a-4a32-acb2-3b70b315d2f4" name="Changes" comment="Add new tests for login page">
-      <change afterPath="$PROJECT_DIR$/pages/jackets_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/locators/jackets_page_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_jackets_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/create_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/create_account_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_create_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_create_account_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
