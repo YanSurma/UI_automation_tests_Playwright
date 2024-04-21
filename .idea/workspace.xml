@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2af2a5-374a-4a32-acb2-3b70b315d2f4" name="Changes" comment="Add new tests">
+    <list default="true" id="ff2af2a5-374a-4a32-acb2-3b70b315d2f4" name="Changes" comment="Add new tests for login page">
+      <change afterPath="$PROJECT_DIR$/pages/jackets_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/locators/jackets_page_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_jackets_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/locators/login_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/locators/login_page_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/create_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/create_account_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_create_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_create_account_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_page.py" afterDir="false" />
@@ -48,55 +54,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python tests.Python tests for test_create_account_page.test_create_account.executor": "Run",
-    "Python tests.Python tests for test_create_account_page.test_create_account_with_empty_required_fields.executor": "Run",
-    "Python tests.Python tests for test_create_account_page.test_fill_form_with_empty_required_fields.executor": "Run",
-    "Python tests.Python tests for test_first.test_create_account.executor": "Run",
-    "Python tests.Python tests for test_first.test_create_exist_user.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_login.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_login_non_exists_user.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_login_with_empty_email.executor": "Run",
-    "Python tests.Python tests for test_login_page.test_login_with_empty_password.executor": "Run",
-    "Python tests.Python tests in test_first.py.executor": "Run",
-    "Python.conftest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Repositories/UI_Automations_tests_Selenium",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_create_account_page.test_create_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_account_page.test_create_account_with_empty_required_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_account_page.test_fill_form_with_empty_required_fields.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_first.test_create_account.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_first.test_create_exist_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jackets_page.test_add_item_sort_by_price.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jackets_page.test_add_item_sort_by_product_name.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jackets_page.test_add_item_to_card.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jackets_page.test_add_item_to_compare.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jackets_page.test_add_item_to_compare_by_list_view.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_jackets_page.test_select_item.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_login_non_exists_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_login_with_empty_email.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login_page.test_login_with_empty_password.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_first.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Repositories/UI_automation_tests_Playwright&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repositories\UI_automation_tests_Playwright" />
+      <recent name="D:\Repositories\UI_automation_tests_Playwright\tests" />
       <recent name="D:\Repositories\UI_automation_Playwright\pages" />
       <recent name="D:\Repositories\UI_automation_Playwright" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_login_page.test_login">
-    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UI_automation_Playwright" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conftest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_create_account_page.test_create_account">
     <configuration name="Python tests for test_create_account_page.test_create_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="UI_automation_Playwright" />
       <option name="ENV_FILES" value="" />
@@ -113,22 +105,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_login_page.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="UI_automation_Playwright" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;test_login_page.test_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_login_page.test_login_non_exists_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_jackets_page.test_add_item_sort_by_price" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="UI_automation_Playwright" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +117,55 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;test_login_page.test_login_non_exists_user&quot;" />
+      <option name="_new_target" value="&quot;test_jackets_page.test_add_item_sort_by_price&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_jackets_page.test_add_item_sort_by_product_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="UI_automation_Playwright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (UI_automation_Playwright)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_jackets_page.test_add_item_sort_by_product_name&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_jackets_page.test_add_item_to_card" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="UI_automation_Playwright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (UI_automation_Playwright)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_jackets_page.test_add_item_to_card&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_jackets_page.test_add_item_to_compare_by_list_view" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="UI_automation_Playwright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (UI_automation_Playwright)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_jackets_page.test_add_item_to_compare_by_list_view&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -156,22 +181,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
       <option name="_new_target" value="&quot;test_login_page.test_login_with_empty_email&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_login_page.test_login_with_empty_password" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="UI_automation_Playwright" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (UI_automation_Playwright)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;test_login_page.test_login_with_empty_password&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -226,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_login_page.test_login" />
-        <item itemvalue="Python.conftest" />
-        <item itemvalue="Python tests.Python tests for test_login_page.test_login_non_exists_user" />
-        <item itemvalue="Python tests.Python tests for test_login_page.test_login_with_empty_password" />
         <item itemvalue="Python tests.Python tests for test_create_account_page.test_create_account" />
+        <item itemvalue="Python tests.Python tests for test_jackets_page.test_add_item_sort_by_product_name" />
+        <item itemvalue="Python tests.Python tests for test_jackets_page.test_add_item_sort_by_price" />
+        <item itemvalue="Python tests.Python tests for test_jackets_page.test_add_item_to_card" />
+        <item itemvalue="Python tests.Python tests for test_jackets_page.test_add_item_to_compare_by_list_view" />
       </list>
     </recent_temporary>
   </component>
@@ -258,11 +267,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713626686477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add new tests for login page">
+      <option name="closed" value="true" />
+      <created>1713646392800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713646392800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add new tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new tests" />
+    <MESSAGE value="Add new tests for login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new tests for login page" />
   </component>
 </project>

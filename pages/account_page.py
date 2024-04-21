@@ -1,3 +1,5 @@
+import allure
+
 from pages.base_page import BasePage
 from pages.locators import account_page_locators as loc
 
@@ -5,6 +7,7 @@ from pages.locators import account_page_locators as loc
 class MyAccount(BasePage):
     page_url = '/customer/account/'
 
+    @allure.step('Check for account info equals')
     def check_for_account_info_equals(self, first_name, last_name, email):
         account_text = self.find(loc.ACCOUNT_INFO).inner_text()
         split_text = account_text.split(sep='\n')
