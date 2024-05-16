@@ -3,3 +3,11 @@ venv
 .venv
 allure-results
 allure-report
+__pycache__/
+data/__pycache__/
+generator/__pycache__/
+pages/__pycache__/
+pages/locators/__pycache__/
+tests/__pycache__/
+
+

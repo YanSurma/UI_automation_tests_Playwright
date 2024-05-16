@@ -1,6 +1,6 @@
 import allure
 
-from conftest import login
+from conftest import login, page
 
 
 @allure.feature('Smoke')

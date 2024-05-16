@@ -40,5 +40,5 @@ not_equal_passwords = [
      user.last_name,
      user.email,
      user.password,
-     'user.confirm_password']
+     'notequal_pa$$sw']
 ]
