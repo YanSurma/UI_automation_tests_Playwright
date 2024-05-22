@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2af2a5-374a-4a32-acb2-3b70b315d2f4" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/tests/test_eco_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/invalid_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/invalid_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/create_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/create_account_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/jackets_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/eco_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/locators/jackets_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/locators/eco_page_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_create_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_create_account_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_jackets_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +79,7 @@
       <recent name="D:\Repositories\UI_automation_Playwright" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_eco_page.test_add_item_sort_by_price">
+  <component name="RunManager" selected="Python tests.Python tests for test_create_account_page.test_create_account">
     <configuration name="Python tests for test_create_account_page.test_create_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="UI_automation_Playwright" />
       <option name="ENV_FILES" value="" />
@@ -236,8 +226,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_eco_page.test_add_item_sort_by_price" />
         <item itemvalue="Python tests.Python tests for test_create_account_page.test_create_account" />
+        <item itemvalue="Python tests.Python tests for test_eco_page.test_add_item_sort_by_price" />
         <item itemvalue="Python tests.Python tests for test_login_page.test_login" />
         <item itemvalue="Python tests.Python tests for tests.test_eco_page.test_add_item_sort_by_position" />
         <item itemvalue="Python tests.Python tests for tests.test_eco_page.test_add_item_sort_by_product_name" />
