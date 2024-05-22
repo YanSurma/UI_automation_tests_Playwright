@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2af2a5-374a-4a32-acb2-3b70b315d2f4" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/UI_automation_Playwright.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UI_automation_Playwright.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +89,28 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (UI_automation_Playwright)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
       <option name="_new_target" value="&quot;test_create_account_page.test_create_account&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_create_account_page.test_create_account_with_empty_required_fields" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="UI_automation_Playwright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (UI_automation_Playwright)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
+      <option name="_new_target" value="&quot;test_create_account_page.test_create_account_with_empty_required_fields&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -174,22 +192,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_eco_page.test_add_item_sort_by_product_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="UI_automation_Playwright" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (UI_automation_Playwright)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;--headed&quot;" />
-      <option name="_new_target" value="&quot;tests.test_eco_page.test_add_item_sort_by_product_name&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="UI_automation_Playwright" />
       <option name="ENV_FILES" value="" />
@@ -227,10 +229,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for test_create_account_page.test_create_account" />
+        <item itemvalue="Python tests.Python tests for test_create_account_page.test_create_account_with_empty_required_fields" />
         <item itemvalue="Python tests.Python tests for test_eco_page.test_add_item_sort_by_price" />
         <item itemvalue="Python tests.Python tests for test_login_page.test_login" />
         <item itemvalue="Python tests.Python tests for tests.test_eco_page.test_add_item_sort_by_position" />
-        <item itemvalue="Python tests.Python tests for tests.test_eco_page.test_add_item_sort_by_product_name" />
       </list>
     </recent_temporary>
   </component>
