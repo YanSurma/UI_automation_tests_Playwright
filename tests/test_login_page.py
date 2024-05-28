@@ -1,15 +1,29 @@
 import allure
 import pytest
 
-from conftest import login, page
+from conftest import login, page, create_user
+
+"""Прежнее решение"""
+# @pytest.mark.smoke
+# @allure.feature('Smoke')
+# def test_login(login):
+#     login.open_page(login.page_url)
+#     login.fill_email('qa1_user@gmail.com')
+#     login.fill_password('IGyVWvsJsQsmuC^b')
+#     login.click_sign_in_button()
+#     login.check_page_title('My Account')
+
+
+"""Поиск лучшего решения"""
 
 
 @pytest.mark.smoke
 @allure.feature('Smoke')
-def test_login(login):
+def test_login(page, login, create_user):
+    email, password = create_user
     login.open_page(login.page_url)
-    login.fill_email('qa1_user@gmail.com')
-    login.fill_password('IGyVWvsJsQsmuC^b')
+    login.fill_email(email)
+    login.fill_password(password)
     login.click_sign_in_button()
     login.check_page_title('My Account')
 
