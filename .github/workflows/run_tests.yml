@@ -13,7 +13,11 @@ on:
           - Regression
           - Extended
           - All
-       
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   run-tests:
