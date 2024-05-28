@@ -1,7 +1,10 @@
 import allure
+import pytest
+
 from conftest import eco, page
 
 
+@pytest.mark.smoke
 @allure.feature('Smoke')
 def test_add_item_sort_by_position(eco):
     eco.open_page(eco.page_url)
@@ -12,6 +15,7 @@ def test_add_item_sort_by_position(eco):
     eco.check_item_price(item_price)
 
 
+@pytest.mark.smoke
 @allure.feature('Smoke')
 def test_add_item_sort_by_price(eco):
     eco.open_page(eco.page_url)
@@ -22,6 +26,7 @@ def test_add_item_sort_by_price(eco):
     eco.check_item_price(item_price)
 
 
+@pytest.mark.smoke
 @allure.feature('Smoke')
 def test_add_item_sort_by_product_name(eco):
     eco.open_page(eco.page_url)

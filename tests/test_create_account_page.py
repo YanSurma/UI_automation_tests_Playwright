@@ -4,6 +4,7 @@ from conftest import create_acc, acc, page
 from data.invalid_data import empty_fields, not_equal_passwords
 
 
+@pytest.mark.smoke
 @allure.feature('Smoke')
 def test_create_account(create_acc, acc):
     create_acc.open_page(create_acc.page_url)
@@ -12,6 +13,7 @@ def test_create_account(create_acc, acc):
     acc.check_for_account_info_equals(*acc_info)
 
 
+@pytest.mark.regression
 @allure.feature('Regression')
 @pytest.mark.parametrize('data', empty_fields)
 def test_create_account_with_empty_required_fields(create_acc, data):
@@ -25,6 +27,7 @@ def test_create_account_with_empty_required_fields(create_acc, data):
     create_acc.check_for_field_error_messages()
 
 
+@pytest.mark.regression
 @allure.feature('Regression')
 @pytest.mark.parametrize('data', not_equal_passwords)
 def test_create_account_with_not_equal_passwords(create_acc, data):
