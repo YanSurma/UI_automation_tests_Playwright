@@ -4,7 +4,7 @@ import pytest
 from conftest import login, page
 
 
-# @pytest.mark.smoke
+@pytest.mark.smoke
 @allure.feature('Smoke')
 def test_login(login):
     login.open_page(login.page_url)
