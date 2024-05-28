@@ -1,3 +1,5 @@
+from time import sleep
+
 import allure
 from playwright.sync_api import expect
 
@@ -48,11 +50,13 @@ class CreateAccountPage(BasePage):
 
     @allure.step('Check for field error messages')
     def check_for_field_error_messages(self):
+        sleep(2)
         error_alerts = self.page.get_by_text('This is a required field.')
         expect(error_alerts).to_have_text('This is a required field.')
 
     @allure.step('Check for password error message')
     def check_for_password_error_messages(self):
+        sleep(2)
         error_alerts = self.page.get_by_text('Please enter the same value again.')
         expect(error_alerts).to_have_text('Please enter the same value again.')
 
