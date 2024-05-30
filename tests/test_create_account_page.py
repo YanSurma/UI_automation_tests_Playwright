@@ -17,12 +17,13 @@ def test_create_account(create_acc, acc):
 @allure.feature('Regression')
 @pytest.mark.parametrize('data', empty_fields)
 def test_create_account_with_empty_required_fields(create_acc, data):
+    first_name, last_name, email, password, password_confirmation = data
     create_acc.open_page(create_acc.page_url)
-    create_acc.fill_first_name(data[0])
-    create_acc.fill_last_name(data[1])
-    create_acc.fill_email(data[2])
-    create_acc.fill_password(data[3])
-    create_acc.fill_password_confirmation(data[4])
+    create_acc.fill_first_name(first_name)
+    create_acc.fill_last_name(last_name)
+    create_acc.fill_email(email)
+    create_acc.fill_password(password)
+    create_acc.fill_password_confirmation(password_confirmation)
     create_acc.click_create_button()
     create_acc.check_for_field_error_messages()
 
@@ -31,11 +32,12 @@ def test_create_account_with_empty_required_fields(create_acc, data):
 @allure.feature('Regression')
 @pytest.mark.parametrize('data', not_equal_passwords)
 def test_create_account_with_not_equal_passwords(create_acc, data):
+    first_name, last_name, email, password, password_confirmation = data
     create_acc.open_page(create_acc.page_url)
-    create_acc.fill_first_name(data[0])
-    create_acc.fill_last_name(data[1])
-    create_acc.fill_email(data[2])
-    create_acc.fill_password(data[3])
-    create_acc.fill_password_confirmation(data[4])
+    create_acc.fill_first_name(first_name)
+    create_acc.fill_last_name(last_name)
+    create_acc.fill_email(email)
+    create_acc.fill_password(password)
+    create_acc.fill_password_confirmation(password_confirmation)
     create_acc.click_create_button()
     create_acc.check_for_password_error_messages()
